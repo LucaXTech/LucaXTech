@@ -1,37 +1,53 @@
 # Luca Serioli
 
-**Biomedical Engineer (MSc, cum laude) | Applied AI & Research Software | Connected Systems**
+**Biomedical Engineer (MSc, cum laude) | Medical Imaging AI | Research Software Engineering | Neurotechnology**
 
-I'm a biomedical engineer with a focus on bridging **biomedical research and practical software engineering**. My work spans EEG signal processing, machine learning, biomedical modelling, and the development of tools that interact with real-world devices.
+I develop **research-grade software and applied AI tools** at the intersection of biomedical engineering, machine learning and real-world systems. My work spans medical-image analysis, EEG signal processing, reproducible experimental pipelines, and software/device interoperability.
 
-I completed my MSc in Biomedical Engineering at the **Università degli Studi “G. d’Annunzio” Chieti–Pescara** (110/110 cum laude). During an **Erasmus+ research traineeship at g.tec medical engineering (Austria)**, I worked on EEG-based assessment of mental workload using N-back tasks.
+I earned an MSc in Biomedical Engineering (110/110 cum laude) from the **Università degli Studi “G. d’Annunzio” Chieti–Pescara**. During an **Erasmus+ research traineeship at g.tec medical engineering (Austria)**, I worked on EEG-based mental-workload assessment using N-back tasks.
 
 **Based in:** Brescia, Italy  
-**Professional interests:** Biomedical R&D, neurotechnology, medical imaging, applied AI, software engineering and connected medical technologies.
+**Interests:** Biomedical R&D · Computer Vision · Neurotechnology · Applied AI · Scientific Software · Connected Systems
 
-## Selected projects
+## Featured research software — SpineLocus
 
-| Project | What it demonstrates |
+### [SpineLocus — thoracic spine landmark localization](https://github.com/LucaXTech/spinelocus)
+
+[![SpineLocus v0.1.7 DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23325290.svg)](https://doi.org/10.5281/zenodo.23325290)
+
+**Independently developed, single-author open-source Python research software.** SpineLocus locates **11 thoracic vertebral landmarks (T1–T11)** in digitally reconstructed radiographs (DRRs), combining **YOLO-Pose** with optional **HRNet** refinement.
+
+Beyond model inference, the project implements **subject-disjoint data partitioning, training configurations, full-image evaluation, ensemble methods, automated tests, and dataset/provenance audits**.
+
+**Reported development-validation baseline:** **82.31% mean subject PCK@5** and **6.424 px mean localization error**, evaluated on **750 images from 15 subjects**. This validation set was used during method development; these figures **are not independent held-out test results**.
+
+**[Source code & documentation](https://github.com/LucaXTech/spinelocus)** · **[Versioned archive / DOI](https://doi.org/10.5281/zenodo.23325290)** · **AGPL-3.0-only** · **v0.1.7**
+
+*Research software only; not validated for clinical use. Imaging data and trained model weights are not distributed.*
+
+## Other selected projects
+
+| Project | Engineering focus |
 | --- | --- |
-| **[EEG Mental Workload Analysis](https://github.com/LucaXTech/eeg-workload-analysis)** | MSc research on EEG markers, N-back experiments, signal-processing workflows and workload classification. Includes a sanitized, reproducibility-oriented research repository. |
-| **[Glucose–Insulin Modelling & Control](https://github.com/LucaXTech/glucose-insulin-simulink-control)** | Biomedical system simulation in MATLAB/Simulink, including PID and fuzzy control strategies. Academic modelling project; not for clinical use. |
-| **[MAGI / BioAudit](https://github.com/LucaXTech/magi-multimodel)** | Experimental multi-model AI orchestration, evaluation methodology and biomedical research auditing. Research prototype. |
-| **[Sanag Control for iOS](https://github.com/LucaXTech/sanag-b21s-control-ios)** | Original SwiftUI/CoreBluetooth app for real headphones: reverse-engineered BLE interoperability, EQ presets, reconnection and iOS Shortcuts. Tested on Sanag B21S hardware. |
-| **[UplinkWitness](https://github.com/LucaXTech/UplinkWitness)** | Self-hosted network diagnostics: Linux service, multi-layer connectivity evidence, dashboard and Raspberry Pi validation. |
-| **[Echo LiveView Bridge](https://github.com/LucaXTech/echo-liveview-bridge)** | Experimental device interoperability and video-stream research involving WebRTC and H.264. Proof of concept, not a production integration. |
+| **[EEG Mental Workload Analysis](https://github.com/LucaXTech/eeg-workload-analysis)** | MSc EEG research: N-back paradigms, ERP analysis, signal processing and mental-workload classification. Reproducibility-oriented research repository; distinct from SpineLocus. |
+| **[Glucose–Insulin Modelling & Control](https://github.com/LucaXTech/glucose-insulin-simulink-control)** | Biomedical system simulation with MATLAB/Simulink, PID and fuzzy control. Academic modelling project; not for clinical use. |
+| **[MAGI / BioAudit](https://github.com/LucaXTech/magi-multimodel)** | Experimental multi-model AI orchestration and biomedical research-auditing methodology. Research prototype. |
+| **[Sanag Control for iOS](https://github.com/LucaXTech/sanag-b21s-control-ios)** | Original SwiftUI/CoreBluetooth application: reverse-engineered BLE interoperability, EQ presets and iOS Shortcuts. Hardware-tested on Sanag B21S. |
+| **[UplinkWitness](https://github.com/LucaXTech/UplinkWitness)** | Self-hosted Linux/network diagnostics with multi-layer connectivity evidence, dashboard and Raspberry Pi validation. |
+| **[Echo LiveView Bridge](https://github.com/LucaXTech/echo-liveview-bridge)** | Experimental WebRTC/H.264 device-interoperability and video-stream research. Proof of concept. |
 
 ## Technical areas
 
-- **Biomedical & research:** EEG, biosignal processing, experimental protocols, biomedical modelling and medical imaging research.
-- **AI & data:** Python, scientific computing, signal processing, scikit-learn, PyTorch and machine-learning evaluation.
-- **Software & systems:** Swift/SwiftUI, CoreBluetooth, Git, CI, Linux, Raspberry Pi, network protocols and interoperability research.
-- **Simulation & control:** MATLAB/Simulink, dynamic-system modelling and feedback control.
+- **Medical imaging & AI:** Computer Vision, landmark localization, YOLO-Pose, HRNet, PyTorch, reproducible model evaluation.
+- **Biomedical research:** EEG, ERP analysis, biosignal processing, experimental protocols and biomedical modelling.
+- **Scientific software:** Python, scientific computing, scikit-learn, dataset integrity, testing, Git and CI.
+- **Systems & development:** Swift/SwiftUI, CoreBluetooth, Linux, Raspberry Pi, network protocols and interoperability.
+- **Modelling & control:** MATLAB/Simulink, dynamical systems and feedback control.
 
-## Collaboration
+## Collaboration & contact
 
-I'm interested in engineering roles and collaborations combining **biomedical technology, applied AI and rigorous software development**, especially where research must become a reliable working system.
+I'm interested in **biomedical R&D, AI/computer-vision engineering and research software development**, particularly where rigorous experiments need to become robust, maintainable software.
 
-- **Projects and source code:** [github.com/LucaXTech](https://github.com/LucaXTech)
-- **Contact:** [luca@serioli.org](mailto:luca@serioli.org)
+**[GitHub projects](https://github.com/LucaXTech)** · **[Email](mailto:luca@serioli.org)**
 
-*The repositories above have different maturity levels. Their README files document scope, evidence and limitations. Projects derived from third-party code are not presented here as original creations.*
+*Projects vary in maturity; each repository documents its evidence, scope and limitations. Third-party contributions and methods retain their own attribution.*
