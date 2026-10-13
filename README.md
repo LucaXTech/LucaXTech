@@ -13,7 +13,7 @@ I earned an MSc in Biomedical Engineering (110/110 cum laude) from the **Univers
 
 ### [SpineLocus — thoracic spine landmark localization](https://github.com/LucaXTech/spinelocus)
 
-[![SpineLocus v0.1.7 DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23325290.svg)](https://doi.org/10.5281/zenodo.23325290)
+**Archived release v0.1.7 — [DOI: 10.5281/zenodo.23325290](https://doi.org/10.5281/zenodo.23325290)**
 
 **Independently developed, single-author open-source Python research software.** SpineLocus locates **11 thoracic vertebral landmarks (T1–T11)** in digitally reconstructed radiographs (DRRs), combining **YOLO-Pose** with optional **HRNet** refinement.
 
