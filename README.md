@@ -2,6 +2,8 @@
 
 **Biomedical Engineer (MSc, cum laude) | Medical Imaging AI | Research Software Engineering | Neurotechnology**
 
+**LinkedIn:** [linkedin.com/in/luca-serioli](https://www.linkedin.com/in/luca-serioli/) · **Website:** [serioli.org](https://www.serioli.org/) · **Email:** [luca@serioli.org](mailto:luca@serioli.org)
+
 I develop **research-grade software and applied AI tools** at the intersection of biomedical engineering, machine learning and real-world systems. My work spans medical-image analysis, EEG signal processing, reproducible experimental pipelines, and software/device interoperability.
 
 I earned an MSc in Biomedical Engineering (110/110 cum laude) from the **Università degli Studi “G. d’Annunzio” Chieti–Pescara**. During an **Erasmus+ research traineeship at g.tec medical engineering (Austria)**, I worked on EEG-based mental-workload assessment using N-back tasks.
